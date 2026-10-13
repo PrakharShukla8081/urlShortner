@@ -18,6 +18,7 @@
   "homepage": "https://github.com/PrakharShukla8081/urlShortner#readme",
   "dependencies": {
     "express": "^5.3.0",
-    "mongoose": "^9.11.2"
+    "mongoose": "^9.11.2",
+    "nanoid": "^6.0.2"
   }
 }
