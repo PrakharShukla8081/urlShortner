@@ -26,7 +26,7 @@ async function handleUserLogin(req,res){
         
     const sessionId = uuidv4();
     setUser(sessionId, user);
-    res.cookie("uuid",sessionId)
+    res.cookie("uid",sessionId)
     
     return res.redirect("/")
 }
